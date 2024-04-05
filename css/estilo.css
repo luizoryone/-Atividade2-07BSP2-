@@ -1,0 +1,150 @@
+/*cabeçalho*/
+header img{
+    height: 90px;
+    width: 90px;
+}
+
+
+/*Conteudo principal*/
+main{
+    min-height: 500px;
+}
+
+/*banner*/
+#section-banners img{
+    height: 700px ;
+    
+}
+
+/*piscar texto*/
+@keyframes piscar {
+    25%  {opacity: 1; color: aqua;}
+    25%  {opacity: 0;color: yellow;}
+    85%  {opacity: 1;color: green;}
+    70%  {opacity: 1;color: aqua;}
+    60%  {opacity: 0;color: rgb(2, 51, 44);}
+    75%  {opacity: 1;color: green;}
+    85%  {opacity: 1;color:rgb(74, 226, 99)}
+    90%  {opacity: 0;color: yellow;}
+    100% {opacity: 1;color: green;}
+    
+}
+
+.piscante {
+    animation: piscar 5s infinite;
+}
+
+
+
+@keyframes piscar2 {
+    65%  {opacity: 1; color: rgb(191, 121, 16);}
+    45%  {opacity: 0;color: rgb(228, 60, 9);}
+    85%  {opacity: 1;color: rgb(172, 85, 30);}
+    70%  {opacity: 1;color: rgb(248, 8, 76);}
+    60%  {opacity: 0;color: rgb(222, 11, 11);}
+    75%  {opacity: 1;color: rgb(239, 22, 6);}
+    45%  {opacity: 1;color:rgb(190, 37, 24)}
+    90%  {opacity: 0;color: rgb(228, 25, 25);}
+    100% {opacity: 1;color: rgb(236, 4, 4);}
+    
+}
+
+.preco {
+    animation: piscar2 10s infinite;
+}
+
+
+
+
+
+h2{
+    text-align: center;
+}
+
+/*Produtos vendidos*/
+
+#section-vendidos{
+    text-align: center;
+}
+
+#section-vendidos h2{
+    /*text-align: center;*/
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos img{
+align-self: center;
+    height: 400px;
+    width: 600px;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+
+
+
+#section-vendidos .card{
+    /*text-align: center;*/
+    margin: 5px;
+    border: 1px solid #6a0d0d;
+    border-radius: 10px;
+}
+
+
+
+#section-vendidos .preco{
+    /*text-align: center;*/
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    border: 1px solid #6a0d0d;
+}
+
+
+/*Rodapé - alinhamento centro e todos os p com negrito e espaçamento 10px*/
+footer{
+    text-align: center;
+    }
+footer p {
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(25, 25, 209);
+}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom: 5px;
+    right: 50px;
+
+}
+/* página de login  */
+#section-login{
+    margin-top: 100px;
+}
+
+#section-login h1{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+
+
+
+/* Formulário de cadastro*/
+
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+}
+    
+
+#form-cadastrar{
+    padding: 50px;
+    display: none;
+}
